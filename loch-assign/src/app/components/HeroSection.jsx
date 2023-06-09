@@ -20,11 +20,11 @@ function HeroSection() {
             <p className='text-md my-6 mx-2 opacity-70 text-[#F2F2F2]'>All whales are not equal. Know exactly what the whales impacting YOUR portfolio are doing.</p>
            </div>
         </div>
-        <div className='w-4/5 m-auto'>
-         <h3 className='text-right w-fit-content font-medium text-2xl '>Testimonials</h3>
-         <hr className='text-gray-50'/>
-         <div className='flex items-end pb-12 gap-4 w-full'>
-            <img className='my-8' src='./design.svg'/>
+        <div className=''>
+         <h3 className='w-4/5 m-auto text-right w-fit-content font-medium text-2xl '>Testimonials</h3>
+         <hr className='w-4/5 m-auto text-gray-50'/>
+         <div className='flex overflow-x-scroll pb-12 ml-[10%] gap-4'>
+            <img className='my-8 self-end justify-self-end' src='./design.svg'/>
             <div className='bg-white min-w-[375px] min-h-[125px] rounded-lg my-8 px-4'>
                 <div className='flex gap-2 justify-left items-end w-full my-4'>
                   <h4 className='text-black font-semibold'>Jack F</h4>
@@ -39,6 +39,13 @@ function HeroSection() {
                 </div>
                 <p className='text-md leading-2 text-black mb-4'>“I use Loch everyday now. I don't think I could analyze crypto whale trends markets without it. 
                   I'm addicted!”</p>
+            </div>
+            <div className='bg-white min-w-[375px] min-h-[125px] rounded-lg my-8 px-4'>
+                <div className='flex gap-2 justify-left items-end w-full my-4'>
+                  <h4 className='text-black font-semibold'>Shiv S</h4>
+                  <p className='text-gray-400 text-xs font-medium mb-1'>Co-Founder Magik Labs</p>
+                </div>
+                <p className='text-md leading-2 text-black mb-4'>“Managing my own portfolio is helpful and well designed. What’s really interesting is watching the whales though. No one else has made whale tracking so simple.”</p>
             </div>
          </div>
         </div>
