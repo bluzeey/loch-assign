@@ -26,7 +26,7 @@ function Notifications() {
         className='p-4 text-black p-4 rounded-md border-2 border-[#E5E5E6] shadow-md w-full' placeholder='Your email address'/>
       <button type='submit' className='bg-gray-900 text-white rounded-md py-4 px-7 my-4 w-full'>Get Started</button>
       </form>
-      <p className='mt-10 w-full text-gray-900 text-md font-semibold leading-1'>You’ll receive an email with an invite link to join.</p>
+      <p className='mt-10 w-full text-gray-900 text-md font-semibold leading-1'>You&apos;ll receive an email with an invite link to join.</p>
       </div> 
     </div>
   )
